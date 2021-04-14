@@ -34,6 +34,7 @@ nav{
 
 li:nth-child(2n - 1){
     color: red;
+    font-size: 1.1rem;
 }
 li:nth-child(2n){
     font-weight: bold;
@@ -50,6 +51,10 @@ li:nth-child(2n){
 .content::first-letter{
     font-size: 25px;
     font-weight: bold;
+}
+
+.services{
+    text-indent: 40px;
 }
 
 .green{
