@@ -1,8 +1,12 @@
+body{
+    font-family: arial;
+}
 .title{
     color: blue;
     text-align: center;
     letter-spacing: 6px;
     margin-bottom: 20 px;
+    font-weight: 750;
 }
 
 nav{
@@ -28,10 +32,20 @@ nav{
 li:nth-child(2n - 1){
     color: red;
 }
+li:nth-child(2n){
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
 .content{
+    text-indent: 20px;
     font: arial;
     font-weight: 550;
     margin-bottom: 50px;
+    line-height: 26px;
+}
+.content::first-letter{
+    font-size: 20px;
 }
 
 .green{
