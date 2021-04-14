@@ -1,7 +1,7 @@
-body{
+body {
     font-family: arial;
 }
-.title{
+.title {
     color: blue;
     text-align: center;
     letter-spacing: 6px;
@@ -9,54 +9,64 @@ body{
     font-weight: 750;
 }
 
-nav{
+.nav {
     text-align: center;
     font-weight: 700;
     margin-bottom: 20px;
+    
+}
+
+.nav a.active {
+    text-decoration: none;
+    color: red;
+}
+
+.nav a:hover{
+    color:green;
 }
 
 .green{
     color: green;
 }
 
-.bold{
+.bold {
     font-weight: bold;
 }
-.empty{
+.empty {
     text-decoration: none;
     color: red;
 }
 
-.services{
+.services {
     font-size: 22px;
     font-weight: 800;
 }
 
-li:nth-child(2n - 1){
+.list li:nth-child(2n - 1) {
     color: red;
     font-size: 1.1rem;
 }
-li:nth-child(2n){
+.list li:nth-child(2n) {
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2rem;
 }
-.content{
+.content {
     text-indent: 20px;
     font: arial;
     font-weight: 550;
     margin-bottom: 50px;
     line-height: 26px;
 }
-.content::first-letter{
+.content::first-letter {
     font-size: 25px;
     font-weight: bold;
 }
 
-.services{
+.services {
     text-indent: 40px;
 }
 
-.green{
+.green {
     color: green;
 }

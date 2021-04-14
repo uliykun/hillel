@@ -1,0 +1,18 @@
+.block1{
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+}
+
+.string{
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+}
+
+.block2{
+    width: 50vh;
+    height: 50vh;
+    background-color: blue;
+    padding: 20px;
+}
