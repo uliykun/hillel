@@ -1,0 +1,39 @@
+.title{
+    color: blue;
+    text-align: center;
+    letter-spacing: 6px;
+    margin-bottom: 20 px;
+}
+
+nav{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.green{
+    color: green;
+}
+
+.empty{
+    text-decoration: none;
+    color: red;
+}
+
+.services{
+    font-size: 22px;
+    font-weight: 800;
+}
+
+li:nth-child(2n - 1){
+    color: red;
+}
+.content{
+    font: arial;
+    font-weight: 550;
+    margin-bottom: 50px;
+}
+
+.green{
+    color: green;
+}

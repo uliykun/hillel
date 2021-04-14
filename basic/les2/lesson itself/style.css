@@ -1,0 +1,25 @@
+ul li:first-child{
+    color: red;
+}
+
+ul li:last-child{
+    color: red;
+}
+
+ul li:nth-child(even){
+    color: blue;
+}
+
+.title{
+    color: tomato;
+    opacity: 0.5;
+    font-size: 20px;
+    line-height: 2;
+    text-indent: 80px;
+    white-space: nowrap;
+    text-shadow: 2px;
+}
+
+.title p{
+    font-size: 100%;
+}
