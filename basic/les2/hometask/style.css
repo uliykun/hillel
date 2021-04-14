@@ -19,6 +19,9 @@ nav{
     color: green;
 }
 
+.bold{
+    font-weight: bold;
+}
 .empty{
     text-decoration: none;
     color: red;
@@ -45,7 +48,8 @@ li:nth-child(2n){
     line-height: 26px;
 }
 .content::first-letter{
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .green{
