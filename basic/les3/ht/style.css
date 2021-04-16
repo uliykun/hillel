@@ -28,9 +28,10 @@ ol, ul, p, h1, h2, h3, h4, h5, h6 {
     color: #4c7fb3;
     
 }
-.active a {
+li.active a {
     text-decoration: none;
     color: red;
+    text-decoration: underline;
 }
 
 .title {
